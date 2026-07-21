@@ -1,0 +1,41 @@
+# =============================================================================
+# ONNX Tutorial — Python Dependencies
+# =============================================================================
+# Install all:  pip install -r requirements.txt
+# =============================================================================
+
+# --- Core ONNX ---
+onnx>=1.15.0
+onnxruntime>=1.17.0
+# onnxruntime-gpu>=1.17.0        # Uncomment for NVIDIA GPU support
+
+# --- Model Export / Conversion ---
+torch>=2.1.0
+torchvision>=0.16.0
+# tensorflow>=2.14.0             # Uncomment for TensorFlow chapters
+# tf2onnx>=1.16.0                # Uncomment for TF-to-ONNX conversion
+skl2onnx>=1.16.0
+scikit-learn>=1.3.0
+
+# --- Optimization ---
+onnxoptimizer>=0.3.13
+
+# --- Tree-based model conversion ---
+# onnxmltools>=1.12.0            # Uncomment for XGBoost/LightGBM conversion
+# xgboost>=2.0.0                 # Uncomment for XGBoost examples
+# lightgbm>=4.1.0                # Uncomment for LightGBM examples
+
+# --- NLP / Transformers ---
+# transformers>=4.36.0           # Uncomment for NLP chapters
+# optimum[onnxruntime]>=1.16.0   # Uncomment for Hugging Face Optimum
+
+# --- Deployment ---
+fastapi>=0.104.0
+uvicorn>=0.24.0
+python-multipart>=0.0.6
+
+# --- Visualization & Utilities ---
+numpy>=1.24.0
+Pillow>=10.0.0
+matplotlib>=3.7.0
+tqdm>=4.66.0
